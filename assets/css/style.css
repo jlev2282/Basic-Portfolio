@@ -5,6 +5,7 @@
 }
 
 #myname {
+	float: left;
 	height: 75px;
 	width: 125px;
 	background-color: DDD;
@@ -12,4 +13,16 @@
 
 #icons {
 	float: right;
+}
+
+#aboutme {
+	float: left;
+}
+
+#connect {
+	float: right;
+}
+
+ul {
+	display: inline;
 }
