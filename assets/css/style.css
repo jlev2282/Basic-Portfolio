@@ -1,0 +1,15 @@
+#header {
+	height: 100px;
+	border: solid;
+	background-color: ccc;
+}
+
+#myname {
+	height: 75px;
+	width: 125px;
+	background-color: DDD;
+}
+
+#icons {
+	float: right;
+}
