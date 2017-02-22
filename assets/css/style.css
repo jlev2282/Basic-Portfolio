@@ -19,8 +19,9 @@
 header {
 	width: 100%;
 	margin-bottom: 20px;
-	border-color: fff;
+	border-color: 000;
 	border: solid;
+	background-color: fff;
 }
 
 li {
@@ -78,8 +79,8 @@ li {
 #connect {
 	color: white;
 	float: right;
-	width: 25%;
-	margin-right: 100px;
+	width: 20%;
+	padding-top: 0 auto;
 	margin-top: 20px;
 	background-color: #1d065c;
 	border-radius: 7px;
@@ -87,6 +88,11 @@ li {
 
 ul {
 	display: inline;
+}
+
+ul img{
+	height: 50px;
+	width: auto;
 }
 
 img {
