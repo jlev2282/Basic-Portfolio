@@ -19,6 +19,8 @@
 header {
 	width: 100%;
 	margin-bottom: 20px;
+	border-color: fff;
+	border: solid;
 }
 
 li {
@@ -32,7 +34,7 @@ li {
 	padding-left: 20px;
 	padding-right: 20px;
 	margin-bottom: 0;
-	background-color: green;
+	background-color: fff;
 	
 }
 
@@ -40,6 +42,7 @@ li {
 	float: right;
 	margin: 20px;
 	margin-right: 100px;
+	color: white;
 }
 
 .button {
@@ -53,12 +56,21 @@ li {
 	}
 
 #aboutme {
-	padding:20px;
+	background-image: url("../images/JohnandLaila.jpg");
+	background-size: cover;
+	padding-top:100px;
+	padding-bottom: 75px;
 	float: left;
 	width: 60%;
 	margin-top: 20px;
+	background-color: #1d065c;
+	border-radius: 7px;
 }
 
+#mainp {
+	color: fff;
+	margin-top: 100px;
+}
 #mypic {
 	
 }
@@ -69,6 +81,8 @@ li {
 	width: 25%;
 	margin-right: 100px;
 	margin-top: 20px;
+	background-color: #1d065c;
+	border-radius: 7px;
 }
 
 ul {
