@@ -1,28 +1,58 @@
-#header {
-	height: 100px;
-	border: solid;
-	background-color: ccc;
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: src="css/assets/images/JohnandLaila.jpg";
+}
+
+header {
+	width: 100%;
+	margin-bottom: 20px;
 }
 
 #myname {
+	font-size: 40px;
 	float: left;
-	height: 75px;
-	width: 125px;
-	background-color: DDD;
+	margin-left: 30px;
+	padding-left: 20px;
+	background-color: green;
+	
 }
 
-#icons {
+#navigation {
 	float: right;
+	margin-bottom: ;
+	display: inline;
+}
+
+#mainsection {
+	clear: both;
+	color: black;
+	border: solid;
+	}
+
+#aboutme {
+	padding:20px;
+}
+
+#mypic {
+	
 }
 
 #aboutme {
-	float: left;
+	
 }
 
 #connect {
-	float: right;
+	
 }
 
 ul {
 	display: inline;
 }
+
+img {
+			width: 150px;
+			height: 150px;
+		}
