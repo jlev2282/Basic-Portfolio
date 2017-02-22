@@ -2,28 +2,48 @@
 	box-sizing: border-box;
 }
 
-body {
-	background-image: src="css/assets/images/JohnandLaila.jpg";
+#index {
+	background-image: url("../images/lightsatnight.jpg");
+	background-size: cover;
 }
 
+#contact {
+	background-image: url("../images/atlasboston.jpg");
+	background-size: cover;
+}
+
+#portfolio {
+	background-image: url("../images/Chappie1.jpg");
+	background-size: cover;
+}
 header {
 	width: 100%;
 	margin-bottom: 20px;
 }
 
+li {
+	display: inline;
+}
 #myname {
+	Border-radius: 5px;
 	font-size: 40px;
 	float: left;
 	margin-left: 30px;
 	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 0;
 	background-color: green;
 	
 }
 
 #navigation {
 	float: right;
-	margin-bottom: ;
-	display: inline;
+	margin: 20px;
+	margin-right: 100px;
+}
+
+.button {
+	padding: 5px;
 }
 
 #mainsection {
@@ -34,18 +54,21 @@ header {
 
 #aboutme {
 	padding:20px;
+	float: left;
+	width: 60%;
+	margin-top: 20px;
 }
 
 #mypic {
 	
 }
 
-#aboutme {
-	
-}
-
 #connect {
-	
+	color: white;
+	float: right;
+	width: 25%;
+	margin-right: 100px;
+	margin-top: 20px;
 }
 
 ul {
@@ -56,3 +79,20 @@ img {
 			width: 150px;
 			height: 150px;
 		}
+
+.icon {
+	width: 20px;
+	height: 20px;
+	display: inline;
+}
+
+#footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	clear: both;
+	padding: 25px;
+	background-color: blue;
+	color: white;
+}
